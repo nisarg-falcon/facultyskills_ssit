@@ -1,0 +1,37 @@
+body .header {
+  margin: 0;
+  background: #2d3e50;
+  padding: 20px;
+  color: #FFF;
+}
+
+body .header .user_information {
+  padding: 10px;
+}
+
+body .header .user_information h1 {
+  display: inline;
+  margin: 0;
+  padding: 10px;
+}
+
+body .header .user_information a {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+}
+
+body .header form input[type='submit'] {
+  color: #FFF;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 5px 20px;
+}
+
+body .header form select {
+  color: #FFF;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 5px 10px;
+}
+/*# sourceMappingURL=chart.css.map */

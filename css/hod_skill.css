@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body button {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white;
+  padding: 10px 40px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .table_skill .table_data {
+  background: white;
+  color: black;
+}
+
+body .table_skill .table_data input::-webkit-input-placeholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+body .table_skill .table_data input:-ms-input-placeholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+body .table_skill .table_data input::-ms-input-placeholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+body .table_skill .table_data input::placeholder {
+  text-align: center;
+  font-weight: bold;
+}
+
+body .table_skill input[type=submit] {
+  background: transparent;
+  color: #484848;
+  border: 1px solid #484848;
+  padding: 10px 40px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body table {
+  background: white;
+  padding: 20px;
+  margin: 15px 0px 0px 15px;
+  border: none;
+  height: 90%;
+  width: 97.5%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+body table th {
+  height: 50px;
+  border: 1px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+  background: #1d96b3;
+  color: #fff;
+  border-top: 1px solid #FFF;
+  text-transform: uppercase;
+}
+
+body table th:nth-child(1) {
+  border-left: 1px solid #FFF;
+}
+
+body table th:nth-child(3) {
+  border-right: 1px solid #FFF;
+}
+
+body table td:nth-child(1) {
+  border-left: 1px solid #FFF;
+}
+
+body table td:nth-child(3) {
+  border-right: 1px solid #FFF;
+}
+
+body table tr:last-child {
+  border-bottom: 10px solid #fff;
+}
+
+body table tr {
+  text-align: center;
+}
+
+body table tr:nth-child(even) {
+  background: #efeeec;
+  color: #fff;
+}
+
+body table tr:nth-child(odd) {
+  background: white;
+  color: #fff;
+}
+
+body table td:nth-child(1) {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body table td {
+  border-right: 1px solid #fff;
+  padding: 10px 0px;
+  color: #484848;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body table td a {
+  text-decoration: none;
+  color: #f97252;
+}
+
+body table td a:hover {
+  color: #0253B3;
+}
+
+@media only screen and (max-width: 768px) {
+  body .main_container {
+    width: 100%;
+  }
+  body .main_container .header {
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .main_container .header a {
+    margin: 0px;
+    font-size: 0.8em;
+    line-height: 0px;
+  }
+  body .main_container .header select {
+    padding: 4px;
+    font-size: 0.7em;
+  }
+  body .main_container .header button {
+    margin-left: 9px;
+    padding: 3px;
+  }
+  body .main_container .dynamic .skill_container .flex_contain form {
+    height: 100%;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: (auto)[6];
+        grid-template-rows: repeat(6, auto);
+  }
+  body .main_container .dynamic .skill_container .flex_contain .skill {
+    margin: 10px auto;
+  }
+  body .main_container .dynamic .skill_container .flex_contain input[type="submit"] {
+    grid-column: auto;
+    grid-row: auto;
+    left: 40%;
+  }
+  body table {
+    margin: 5px;
+  }
+}
+/*# sourceMappingURL=hod_skill.css.map */

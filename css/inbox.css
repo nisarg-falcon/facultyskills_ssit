@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body table {
+  background: #c0c0c0;
+  padding: 20px;
+  margin: 15px 0px 0px 15px;
+  border: none;
+  height: 90%;
+  width: 97.5%;
+  border-collapse: collapse;
+}
+
+body table th {
+  height: 50px;
+  border: 1px solid #fff;
+  font-family: 'Montserrat', sans-serif;
+  background: #1d96b3;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+body table tr {
+  text-align: center;
+}
+
+body table tr:nth-child(even) {
+  background: #efeeec;
+  color: #fff;
+}
+
+body table tr:nth-child(odd) {
+  background: white;
+  color: #fff;
+}
+
+body table td:nth-child(1) {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+body table td {
+  border-right: 1px solid #fff;
+  padding: 10px 0px;
+  color: #484848;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body table td a {
+  text-decoration: none;
+  color: #f97252;
+}
+
+body table td a:hover {
+  color: #0253B3;
+}
+
+@media only screen and (max-width: 768px) {
+  body table {
+    margin: 5px;
+  }
+  body table td:nth-child(1) {
+    text-transform: lowercase;
+    letter-spacing: 0px;
+  }
+}
+/*# sourceMappingURL=inbox.css.map */

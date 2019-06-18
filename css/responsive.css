@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+  body .slider {
+    display: none;
+  }
+  body .main-container {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+  }
+  body .main-container .first-container {
+    padding: 20px;
+    display: none;
+  }
+  body .main-container .first-container form {
+    padding: 0px;
+  }
+  body .main-container .first-container form p {
+    display: block;
+  }
+  body .main-container .second-container {
+    display: block;
+    height: auto;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    padding: 10px;
+    position: absolute;
+    background: #03a9f4;
+  }
+  body .main-container .second-container form {
+    padding: 0px;
+  }
+  body .main-container .second-container form p {
+    display: block;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

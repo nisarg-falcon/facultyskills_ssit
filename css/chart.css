@@ -1,0 +1,15 @@
+
+body  form input[type='submit'] {
+  color: #173f5f;
+  border: 1px solid #173f5f;
+  background: transparent;
+  padding: 5px 20px;
+}
+
+body  form select {
+  color: #173f5f;
+  border: 1px solid #173f5f;
+  background: transparent;
+  padding: 5px 10px;
+}
+/*# sourceMappingURL=chart.css.map */
